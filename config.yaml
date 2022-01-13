@@ -32,3 +32,4 @@ frontmatter:
   date:
   - :filename
   - :git
+  - :default
