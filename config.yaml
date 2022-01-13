@@ -1,13 +1,13 @@
-title: "Jay"
+title: "Jay's Blog"
 theme: "eon"
 baseURL: "https://devPalacio.github.io/blog"
 #baseURL: 'http://localhost:8801'
 # for multiple authors, see
 # https://discourse.gohugo.io/t/site-author-usage/31459/8?u=coolaj86
 Author:
-  name: "Jay"
+  name: "Jay Palacio"
   email: "jaypalacio@gmail.com"
-copyright: "© Jay"
+copyright: "© Jay Palacio"
 languageCode: "en-us"
 
 Params:
