@@ -1,6 +1,7 @@
 ---
 title: "Hello world, first post"
 description: "An overview of my disjointed way of learning 'how to code'."
+date: 2022-01-10
 utterances_term: "Hello world"
 categories: [code]
 ---
