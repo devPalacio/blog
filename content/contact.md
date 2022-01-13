@@ -1,8 +1,8 @@
 ---
 title: Contact
 ---
+Give me a holler if you want to chat.
 
-<john.doe@example.com> \
-+1 (555) 867-5309 \
-123 Sesame St \
-New York, NY 10001
+<jaypalacio@gmail.com> \
+
+Clearwater, Florida

@@ -1,5 +1,5 @@
 ---
-hero_title: Hello world.
+hero_title: Working on my documentation skills.
 ---
 
-Hi. I do tech stuff.
+Hey. This is written mostly for myself. Just trying to get better at writing and such.

@@ -2,6 +2,8 @@
 title: About
 ---
 
-I'm the most interesting man in the universe.
+Did 12 years in the Coast Guard fixing, flying on, and hoisting from Helicopters.
 
-I once made a mistake, just to see how it feels.
+Spent my lifetime breaking/fixing/breaking/fixing computers, finally trying to earn a living doing it.
+
+I like riding bikes, BJJ, and local/sustainable food.
