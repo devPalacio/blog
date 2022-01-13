@@ -27,3 +27,8 @@ markup:
     # unsafe allows use of HTML and JavaScript in your Markdown
     # disable if your blog allows posts from untrusted authors
     unsafe: true
+
+frontmatter:
+  date:
+  - :filename
+  - :git
