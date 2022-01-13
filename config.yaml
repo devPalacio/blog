@@ -33,3 +33,9 @@ frontmatter:
   - :filename
   - :git
   - :default
+
+  lastmod:
+  - lastmod
+  - date
+  - publishDate
+  - :git
