@@ -1,7 +1,5 @@
 # blog
 
-Good News: Your blog is ready!
-
 [github-io]: https://devPalacio.github.io/blog
 [bliss-new]: https://bliss.js.org/#/?o=devPalacio&r=blog&b=main&ght
 [gh-settings-pages]: https://github.com/devPalacio/blog/settings/pages
@@ -11,21 +9,6 @@ Good News: Your blog is ready!
 [gh-issues]: https://github.com/devPalacio/blog/issues
 
 ## Just a few steps to **Finish Up**:
-
-1. Enable **GitHub Pages**
-   - Visit [github.com/devPalacio/blog/settings/pages][gh-settings-pages]
-   - Select <kbd>Source</kbd> <kbd>Branch: gh-pages</kbd>
-   - Select <kbd>/ (root)</kbd> (default)
-   - <kbd>Save</kbd>
-2. **Create your First Post**
-   - Visit [bliss.js.org][bliss-new] to make your first post.
-     - [bliss.js.org/#/?o=devPalacio&r=blog&b=main&ght][bliss-new]
-3. **Enable Comments** (optional)
-   - Visit [github.com/apps/utterances][utterances-app]
-   - Click <kbd>Install</kbd>
-   - Select <kbd>devPalacio</kbd> and <kbd>blog</kbd>
-   - You're all set! Comments will become [issues][gh-issues] on _this_ repo!
-   - To **disable** comments, comment out `utterences_*` in `config.yaml`
 
 ## View Blog
 
@@ -102,16 +85,6 @@ done all on your own.
    # or
    # bash ./scripts/deploy.sh
    ```
-
-## Troubleshooting
-
-**Don't see `gh-pages`?**
-
-Generally the <kbd>Use this template</kbd> process takes about 30s. You check to
-see if it's complete at [github.com/devPalacio/blog/actions][gh-actions].
-
-Once the Action finishes it may take up to 5 minutes for the first Pages deploy
-to complete.
 
 **Something else wrong?**
 

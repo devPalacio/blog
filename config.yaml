@@ -1,4 +1,4 @@
-title: "Jay's Blog"
+title: "Jay's Musings "
 theme: "eon"
 baseURL: "https://devPalacio.github.io/blog"
 #baseURL: 'http://localhost:8801'
@@ -12,7 +12,7 @@ languageCode: "en-us"
 
 Params:
   gravatar: true
-  show_edit: "Suggest Edit"
+  # show_edit: "Suggest Edit"
   git_repo: "https://github.com/devPalacio/blog"
   git_branch: "main"
   git_host: "github"
