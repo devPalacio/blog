@@ -8,8 +8,6 @@
 [utterances-app]: https://github.com/apps/utterances
 [gh-issues]: https://github.com/devPalacio/blog/issues
 
-## Just a few steps to **Finish Up**:
-
 ## View Blog
 
 Blog at [devPalacio.github.io/blog][github-io].
