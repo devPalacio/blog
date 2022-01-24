@@ -1,0 +1,29 @@
+---
+title: "SICP is really hard"
+description: "SICP makes me feel dumb"
+date: "2022-01-23"
+utterances_term: "Untitled"
+categories: []
+---
+### SICP is really hard
+
+Bootcamp begins tomorrow. My last bootcamp was nearly 12 years ago. I've slowed
+down my learning pace just a bit to come in nice and fresh. Javascript30 is on
+day 25 and today involved some basics in sticky nav. I have a lot to learn
+browser-side with CSS. With `transition` `transform` and similar tags, its
+ability to animate is impressive.
+
+Due to the high praise it receives, I started reading SICP and skimming the exercises.
+I...do not possess the requisite knowledge. The authors have released a JS version so
+I don't have to adapt to prefix notation, but it heavily uses the ternary operator.
+The first chapter goes into depth on recursion, a couple famous math theorums, and
+the construction of loops without ever using the `for` keyword. It's amazing what you
+can do with just functions. It has been mentally stimulating trying to comprehend
+what the book is putting out. I think MIT would cover just a portion of the book in
+a semester, so I imagine I'll be with the book a while.
+
+The code I wrote for the trello-to-github project got used some more by the author, it
+is a cool feeling knowing that something I came up with is providing utility.
+
+Anyways, bootcamp starts tomorrow. Hopefully we got a cool cohort and the structure
+is conducive to my learning style. Till next time.
