@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jay&#39;s Musings </title>
+    <link>https://devPalacio.github.io/blog/categories/</link>
+    <description>Recent content in Categories on Jay&#39;s Musings </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>jaypalacio@gmail.com (Jay Palacio)</managingEditor>
+    <webMaster>jaypalacio@gmail.com (Jay Palacio)</webMaster>
+    <copyright>© Jay Palacio</copyright>
+    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://devPalacio.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://devPalacio.github.io/blog/categories/linux/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://devPalacio.github.io/blog/categories/code/</link>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/categories/code/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hugo, templates, date formats, bug hunting - Jay&#39;s Musings</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="git_repo" content="https://github.com/devPalacio/blog" />
+    <meta name="git_host" content="github" />
+    <meta name="git_branch" content="main" />
+    <meta name="content_path" content="content" />
+    <link rel="stylesheet" href="https://devPalacio.github.io/blog/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="brand content">
+          <h1>
+            <a href="https://devPalacio.github.io/blog">Jay&#39;s Musings </a>
+          </h1>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="https://devPalacio.github.io/blog">Home</a></li>
+            <li><a href="https://devPalacio.github.io/blog/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section default-single">
+        <div class="container">
+          <div class="content">
+            <div class="postmeta-head">
+              <p>
+                <span class="author">
+                  <img class="gravatar" src="https://www.gravatar.com/avatar/347d668a1867bd8e44f4fc15bb704d63?s=64&d=identicon" />
+                  <span class="name">Jay Palacio</span>
+                </span>
+                <span class="date">January 13, 2022</span>
+                <span class="edit" style="display: none" hidden><a href="https://github.com/devPalacio/blog/edit/main/content/blog/2022-01-13-hugo.md" style="color: #485fc7" target="_blank"></a></span>
+              </p>
+            </div>
+            <div class="single-title">
+              <h1 class="title"><a href="https://devPalacio.github.io/blog/blog/hugo/">Hugo, templates, date formats, bug hunting</a></h1>
+            </div>
+            <p>I reached the stage of frustration in which you change 10 things at once and then you&rsquo;re not really sure what fixed it. At least that&rsquo;s how I felt.</p>
+            <p>When I was adding content to this blog via <a href="bliss.js.org">Bliss</a> I noted my post date was being set as Jan 1, 0001.</p>
+            <p>This led me into the rabbit hole of how Hugo (the really fast static site builder that Bliss uses) uses templates, dates, config files, etc.</p>
+            <p>I&rsquo;ll eventually get around to customizing this a bit and making it presentable to prospective employers. First&hellip;learn more JavaScript.</p>
+            <p>After trying a couple config changes with no results, I deleted the date field from the frontmatter (just learned that term 15 minutes ag) hoping it would default to a date from somewhere else. Nope, still Jan 1, 0001.</p>
+            <p>After that I chopped off the time from the date component and <em>VOILA</em>, it worked! Simple fix, but ate up about 3 hours of my time. That seems to be the theme with software.</p>
+            <p>I&rsquo;d like to try and tackle <a href="https://github.com/dashtesting/trello-github-etl/issues/5">this issue</a> for the ETL project, especially since it&rsquo;s paid work by the DASH community.</p>
+            <p>It&rsquo;ll be a strech of my abilitys, but that&rsquo;s probably the best way to learn.</p>
+            <h3 id="day-14-of-javascript30">Day 14 of Javascript30</h3>
+            <ul>
+              <li>Since objects and arrays are just pointers, you have to be mindful when making a copy of them.</li>
+              <li>MANY ways to do it, which is best? <code>Array.from(array), array.slice()</code>, for loop, and the trendy <code>[...spread]</code> operator</li>
+              <li>If deep copy is needed (are you sure you need a deep copy?) <code>JSON.parse(JSON.stringify(nestedArray))</code> will do the trick</li>
+              <li>Objects are a bit different <code>Object.assign({}, person, { number: 99, age: 12 });</code></li>
+            </ul>
+            <h3 id="js-algo--ds-udemyhttpswwwudemycomcoursejs-algorithms-and-data-structures-masterclasslocaleen_uspersist_locale"><a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/?locale=en_US&amp;persist_locale=">JS Algo &amp; DS Udemy</a></h3>
+            <ul>
+              <li>Did some two pointer challenge questions with no external help. feels good man. <a href="https://github.com/devPalacio/data-struct-and-algos/blob/main/isSubstring.js">I enjoyed the logic employed in this one</a></li>
+            </ul>
+            <p>Also got the offer for the no-code web scraping job, debating submitting a counter-offer or declining and persuing the Hack Reactor bootcamp.</p>
+            <div class="postmeta-foot">
+              <div class="columns">
+                <div class="column">
+                  <div class="categories">
+                    <span class="catlabel"><strong>Categories:</strong></span>
+                    <ul></ul>
+                  </div>
+                </div>
+                <div class="column"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>&copy; Jay&#39;s Musings . Themed with <a href="https://github.com/ryanburnette/eon" target="_blank">eon</a>. Built with <a href="https://bliss.js.org" target="_blank">Bliss ✨</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://devPalacio.github.io/blog/main.js"></script>
+  </body>
+</html>

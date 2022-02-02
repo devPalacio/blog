@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cloud Genius, VIM, and fish - Jay&#39;s Musings</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="git_repo" content="https://github.com/devPalacio/blog" />
+    <meta name="git_host" content="github" />
+    <meta name="git_branch" content="main" />
+    <meta name="content_path" content="content" />
+    <link rel="stylesheet" href="https://devPalacio.github.io/blog/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="brand content">
+          <h1>
+            <a href="https://devPalacio.github.io/blog">Jay&#39;s Musings </a>
+          </h1>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="https://devPalacio.github.io/blog">Home</a></li>
+            <li><a href="https://devPalacio.github.io/blog/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section default-single">
+        <div class="container">
+          <div class="content">
+            <div class="postmeta-head">
+              <p>
+                <span class="author">
+                  <img class="gravatar" src="https://www.gravatar.com/avatar/347d668a1867bd8e44f4fc15bb704d63?s=64&d=identicon" />
+                  <span class="name">Jay Palacio</span>
+                </span>
+                <span class="date">January 17, 2022</span>
+                <span class="edit" style="display: none" hidden><a href="https://github.com/devPalacio/blog/edit/main/content/blog/2022-01-17-cloud-genius.md" style="color: #485fc7" target="_blank"></a></span>
+              </p>
+            </div>
+            <div class="single-title">
+              <h1 class="title"><a href="https://devPalacio.github.io/blog/blog/cloud-genius/">Cloud Genius, VIM, and fish</a></h1>
+            </div>
+            <h3 id="cloud-genius-vim-and-fish">Cloud Genius, VIM, and fish</h3>
+            <blockquote>
+              <p>Customizing EndeavourOS</p>
+            </blockquote>
+            <h4 id="cloud-genius">Cloud Genius</h4>
+            <p>Today kicked off <a href="https://cloudgenius.app/">Cloud Genius</a> He puts on a free (for veterans) platform agnostic cloud training platform with an emphasis on open source and using the command line. Day 1 covered some basics such as public/private key pairs, the definition of cloud, the types of cloud ,etc.</p>
+            <p>He wrote a lot of scripts for ubuntu to automatically provision a custom AWS EC2 instance,and to automatically install needed software for the local development environment. I took it on as a challenge to just wget the scripts, read through them line by line and convert them into commands that would work on arch. For example <code>apt-get install foo</code> become <code>pacman -S foo</code> for arch. no biggie. good practice.</p>
+            <h4 id="linux">Linux</h4>
+            <p>Seems like I mostly just tinkered with linux today. I also dug into the fish config a little bit and made my terminal just a bit more useful by adding git status symbols to the prompt. Small change, big impact. Also committed to learning vim a little more. Fun fact of the day&hellip;*nix has TWO clipboards woah. VIM wise, learned how to easily select whole lines with visual or visual line mode, then yank <em>(such a better word than copy)</em> with <code>y</code> and paste with <code>middlemouse</code>. Strange, but I&rsquo;ll adapt.</p>
+            <h4 id="coding">Coding</h4>
+            <p>I made some more headway on the data structures and algo course and managed to implement a divide and conquer aka binary search method. My logic was convoluted compared to what the instructor provided, but refinement comes with repetition. I also did some light reading on generics, which is a concept that basically doesn&rsquo;t exist in JavaScript but exists in most strongly typed languages. I think my coding vocabulary is reaching a good point, but I&rsquo;m sure that feeling will go away once I try to learn another language.</p>
+            <div class="postmeta-foot">
+              <div class="columns">
+                <div class="column">
+                  <div class="categories">
+                    <span class="catlabel"><strong>Categories:</strong></span>
+                    <ul>
+                      <li><a href="https://devPalacio.github.io/blog/categories/linux/">linux</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="column"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>&copy; Jay&#39;s Musings . Themed with <a href="https://github.com/ryanburnette/eon" target="_blank">eon</a>. Built with <a href="https://bliss.js.org" target="_blank">Bliss ✨</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://devPalacio.github.io/blog/main.js"></script>
+  </body>
+</html>

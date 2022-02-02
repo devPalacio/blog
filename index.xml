@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jay&#39;s Musings </title>
+    <link>https://devPalacio.github.io/blog/</link>
+    <description>Recent content on Jay&#39;s Musings </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>jaypalacio@gmail.com (Jay Palacio)</managingEditor>
+    <webMaster>jaypalacio@gmail.com (Jay Palacio)</webMaster>
+    <copyright>© Jay Palacio</copyright>
+    <lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://devPalacio.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript 30 &amp; code reviews</title>
+      <link>https://devPalacio.github.io/blog/blog/code-review/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/code-review/</guid>
+      <description>Javascript30 day 19  Webcam fun?
+ Today was the longest and possibly most in depth Javascript30 challenge. The goal was to pulll webcam video, display it on a canvas element, add sliders to adjust the canvas image, and then add a &amp;lsquo;take picture&amp;rsquo; button and display the images at the bottom of the canvas. Pretty legit. Learned a lot about the browser again. Maybe I&amp;rsquo;ll be able to do it without watching a video one day.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Genius, VIM, and fish</title>
+      <link>https://devPalacio.github.io/blog/blog/cloud-genius/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/cloud-genius/</guid>
+      <description>Cloud Genius, VIM, and fish  Customizing EndeavourOS
+ Cloud Genius Today kicked off Cloud Genius He puts on a free (for veterans) platform agnostic cloud training platform with an emphasis on open source and using the command line. Day 1 covered some basics such as public/private key pairs, the definition of cloud, the types of cloud ,etc.
+He wrote a lot of scripts for ubuntu to automatically provision a custom AWS EC2 instance,and to automatically install needed software for the local development environment.</description>
+    </item>
+    
+    <item>
+      <title>More Dash &#43; Live Coding with AJ Oneil</title>
+      <link>https://devPalacio.github.io/blog/blog/falling-behind/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/falling-behind/</guid>
+      <description>More Dash + Live Coding with AJ Oneil  Check me out on YouTube
+ Getting my ass kicked by a cold right now. Anyways, I missed yesterdays post so this might end up being another long retrospective. The highlight of yesterday was becoming YouTube famous and having a well seasoned JS developer guide me while I added a feature to a codebase he created days earlier. The objective is to extract a trello board, transform it into usable data, and load it into to github.</description>
+    </item>
+    
+    <item>
+      <title>Event Delegation, Recursion, Local Storage &amp; Dash</title>
+      <link>https://devPalacio.github.io/blog/blog/delegation-recursion/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/delegation-recursion/</guid>
+      <description>Event Delegation, Recursion, Local Storage &amp;amp; Dash  Learning about the browser and JS
+ Today started off pretty good. Continued studying DS&amp;amp;A covering some simple recursion problems. Some pure recursion and some helper function recursion.
+Day 15 of Javascript30 was illuminating. I was exposed to localstorage, the proper usage of JSON.parse() &amp;amp; JSON.stringify() and event delegation. Apparently it&amp;rsquo;s just a fancy term for having an event listener on a parent node listening for and acting on events from its children.</description>
+    </item>
+    
+    <item>
+      <title>Hugo, templates, date formats, bug hunting</title>
+      <link>https://devPalacio.github.io/blog/blog/hugo/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/hugo/</guid>
+      <description>I reached the stage of frustration in which you change 10 things at once and then you&amp;rsquo;re not really sure what fixed it. At least that&amp;rsquo;s how I felt.
+When I was adding content to this blog via Bliss I noted my post date was being set as Jan 1, 0001.
+This led me into the rabbit hole of how Hugo (the really fast static site builder that Bliss uses) uses templates, dates, config files, etc.</description>
+    </item>
+    
+    <item>
+      <title>ETL with JS and a job interview</title>
+      <link>https://devPalacio.github.io/blog/blog/post/</link>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/post/</guid>
+      <description>Did a little bit of JavaScript today working on an open source project called Trello Github ETL  The goal is to ETL: extract data in the form of a JSON file from Trello, transform it into something github projects beta understands, and load it into github. Got some experience getting oriented in a new codebase, setting ENV variables and creating GH tokens and working in VIM. Extracted labels for the trello cards from the JSON  I got more comfortable working in a plain node.</description>
+    </item>
+    
+    <item>
+      <title>Hello world, first post</title>
+      <link>https://devPalacio.github.io/blog/blog/hello-world/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/blog/hello-world/</guid>
+      <description>An overview of the resources I&amp;rsquo;ve found helpful while learning to code. I seriously started learning on September 29th 2019. So there&amp;rsquo;s a lot of catching up to do here
+The first resource I started seriously attempting to learn is the famous CS50x I took away a lot from it, and actually enjoyed it. I stopped on Week 5, its one of my goals to finish it this year. Learning JavaScript took precedence.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://devPalacio.github.io/blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/about/</guid>
+      <description>Did 12 years in the Coast Guard fixing, flying on, and hoisting from Helicopters.
+Spent my lifetime breaking/fixing/breaking/fixing computers, finally trying to earn a living doing it.
+I like riding bikes, BJJ, and local/sustainable food.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://devPalacio.github.io/blog/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jaypalacio@gmail.com (Jay Palacio)</author>
+      <guid>https://devPalacio.github.io/blog/contact/</guid>
+      <description>Give me a holler if you want to chat.
+jaypalacio@gmail.com \
+Clearwater, Florida</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ETL with JS and a job interview - Jay&#39;s Musings</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="git_repo" content="https://github.com/devPalacio/blog" />
+    <meta name="git_host" content="github" />
+    <meta name="git_branch" content="main" />
+    <meta name="content_path" content="content" />
+    <link rel="stylesheet" href="https://devPalacio.github.io/blog/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="brand content">
+          <h1>
+            <a href="https://devPalacio.github.io/blog">Jay&#39;s Musings </a>
+          </h1>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="https://devPalacio.github.io/blog">Home</a></li>
+            <li><a href="https://devPalacio.github.io/blog/blog">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section default-single">
+        <div class="container">
+          <div class="content">
+            <div class="postmeta-head">
+              <p>
+                <span class="author">
+                  <img class="gravatar" src="https://www.gravatar.com/avatar/347d668a1867bd8e44f4fc15bb704d63?s=64&d=identicon" />
+                  <span class="name">Jay Palacio</span>
+                </span>
+                <span class="date">January 12, 2022</span>
+                <span class="edit" style="display: none" hidden><a href="https://github.com/devPalacio/blog/edit/main/content/blog/2022-01-12-post.md" style="color: #485fc7" target="_blank"></a></span>
+              </p>
+            </div>
+            <div class="single-title">
+              <h1 class="title"><a href="https://devPalacio.github.io/blog/blog/post/">ETL with JS and a job interview</a></h1>
+            </div>
+            <h3 id="did-a-little-bit-of-javascript-today-working-on-an-open-source-project-called-trello-github-etlhttpsgithubcomdashtestingtrello-github-etl">Did a little bit of JavaScript today working on an open source project called <a href="https://github.com/dashtesting/trello-github-etl">Trello Github ETL</a></h3>
+            <ul>
+              <li>The goal is to ETL: extract data in the form of a JSON file from Trello, transform it into something github projects beta understands, and load it into github.</li>
+              <li>Got some experience getting oriented in a new codebase, setting ENV variables and creating GH tokens and working in VIM.</li>
+              <li>
+                Extracted labels for the trello cards from the JSON
+                <ul>
+                  <li>I got more comfortable working in a plain node.js repl to test my .map command and writing a small test file to see if I got it working.</li>
+                </ul>
+              </li>
+              <li>
+                My PRs for the project had a really dirty commit history due to some mistakes on my part.
+                <ul>
+                  <li>
+                    <strong>ALWAYS MAKE A BRANCH AFTER FORKING A PROJECT</strong>
+                    <ul>
+                      <li>Keep main pure</li>
+                    </ul>
+                  </li>
+                  <li>
+                    git rebase -i is your friend.
+                    <ul>
+                      <li>rebase off main, keep relevant commits only, squash the junk commits.</li>
+                      <li>Good video to understand <a href="https://www.youtube.com/watch?v=pp4LJI1VovA">Clean git rebase</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h3 id="did-day-13-of-wes-bos-javascript-30">Did <strong>Day 13</strong> of Wes Bos Javascript 30.</h3>
+            <ul>
+              <li>Image slide in cheesy effect - Learned a lot about pixel levels and how the browser senses where the window element is. - Pretty simple day overall, once pixel levels were all figured out, just had to apply and remove a .active class. with <code>classList.add</code> and <code>classList.remove</code> - Included was a neat debounce function that prevents you from hammering the browser too hard with events. I&rsquo;ve almost got my head wrapped around it.</li>
+            </ul>
+            <div class="highlight">
+              <pre tabindex="0" style="color: #f8f8f2; background-color: #272822; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4"><code class="language-js" data-lang="js">      <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">debounce</span>(<span style="color:#a6e22e">func</span>, <span style="color:#a6e22e">wait</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>, <span style="color:#a6e22e">immediate</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>) {
+        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">timeout</span>;
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">function</span> () {
+          <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">context</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>,
+            <span style="color:#a6e22e">args</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">arguments</span>;
+          <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">later</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> () {
+            <span style="color:#a6e22e">timeout</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">immediate</span>) <span style="color:#a6e22e">func</span>.<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">context</span>, <span style="color:#a6e22e">args</span>);
+          };
+          <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">callNow</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">immediate</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">timeout</span>;
+          <span style="color:#a6e22e">clearTimeout</span>(<span style="color:#a6e22e">timeout</span>);
+          <span style="color:#a6e22e">timeout</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">later</span>, <span style="color:#a6e22e">wait</span>);
+          <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">callNow</span>) <span style="color:#a6e22e">func</span>.<span style="color:#a6e22e">apply</span>(<span style="color:#a6e22e">context</span>, <span style="color:#a6e22e">args</span>);
+        };
+</code></pre>
+            </div>
+            <h3 id="interviewed-with-local-company-with-a-programmer-position">Interviewed with local company with a &lsquo;programmer&rsquo; position</h3>
+            <ul>
+              <li>Seemed like a very stable privately held company, I enjoyed talking with the 3 managers who interviewed me over Teams.</li>
+              <li>The tech stack being used (a proprietary low-code web scraper) was a bit too mouse heavy for my liking and doesn&rsquo;t seem like it&rsquo;d level up my programming abilities much.</li>
+              <li>Their annual review is a bit too long of an interval for a position paying $16 an hour. If the pay started at $16 and quickly ramped up I&rsquo;d consider it.</li>
+              <li>They offer full remote, but that doesn&rsquo;t make them stand out too much these days.</li>
+              <li>We&rsquo;ll see if I get the offer.</li>
+            </ul>
+            <div class="postmeta-foot">
+              <div class="columns">
+                <div class="column">
+                  <div class="categories">
+                    <span class="catlabel"><strong>Categories:</strong></span>
+                    <ul>
+                      <li><a href="https://devPalacio.github.io/blog/categories/code/">code</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="column"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>&copy; Jay&#39;s Musings . Themed with <a href="https://github.com/ryanburnette/eon" target="_blank">eon</a>. Built with <a href="https://bliss.js.org" target="_blank">Bliss ✨</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://devPalacio.github.io/blog/main.js"></script>
+  </body>
+</html>
